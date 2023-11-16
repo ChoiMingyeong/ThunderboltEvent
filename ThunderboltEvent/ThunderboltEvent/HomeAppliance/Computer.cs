@@ -1,6 +1,6 @@
 ﻿namespace ThunderboltEvent
 {
-    public class Computer : ThunderboltEventObject, IHomAppliance
+    public class Computer : ThunderboltEventObject, IHomeAppliance
     {
         public Computer()
         {

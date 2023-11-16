@@ -1,6 +1,6 @@
 ﻿namespace ThunderboltEvent
 {
-    public class TV : IHomAppliance
+    public class TV : IHomeAppliance
     {
         public bool Power { get; set; } = false;
 

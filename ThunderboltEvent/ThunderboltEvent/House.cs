@@ -8,7 +8,7 @@
         {
         }
 
-        public void AddHomeAppliance(IHomAppliance appliance)
+        public void AddHomeAppliance(IHomeAppliance appliance)
         {
             _blackoutEventHandler += appliance.OnBlackoutEvent;
         }
